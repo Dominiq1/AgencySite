@@ -1,5 +1,5 @@
 {
-  "name": "metaswap",
+  "name": "Saint Kyro",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,11 +9,38 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ceramicnetwork/http-client": "^2.0.0",
+    "@ceramicnetwork/stream-tile": "^2.0.0",
+    "@ceramicstudio/idx": "^0.12.2",
+    "@datamodels/identity-accounts-crypto": "^0.2.0",
+    "@datamodels/identity-accounts-web": "^0.2.0",
+    "@datamodels/identity-profile-basic": "^0.2.0",
+    "@emailjs/browser": "^3.6.2",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@glazed/devtools": "^0.2.0",
+    "@netlify/plugin-nextjs": "^4.7.0",
+    "dids": "^3.1.0",
+    "framer-motion": "^6.3.3",
+    "grommet": "^2.23.0",
+    "grommet-icons": "^4.7.0",
+    "hashconnect": "^0.1.6",
+    "key-did-provider-ed25519": "^2.0.0",
+    "key-did-resolver": "^2.0.0",
     "next": "12.1.6",
+    "next-transpile-modules": "^9.0.0",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-bootstrap": "^2.3.1",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
+    "react-phone-number-input": "^3.2.2",
+    "react-player": "^2.10.0",
+    "social-media-icons-react": "^1.1.10",
+    "text-encoder": "^0.0.4",
+    "web3.storage": "^4.2.0"
   },
   "devDependencies": {
+    "@types/react": "^18.0.8",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.6"
   }

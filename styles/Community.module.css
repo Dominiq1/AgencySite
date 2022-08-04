@@ -1,0 +1,950 @@
+
+.community{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: blue; */
+}
+.community .header .title {
+  font-weight: bold;
+}
+
+.community .collection {
+align-items: center;
+justify-content: center;
+padding: .25rem 1rem .25rem 1rem;
+height: 25vh;
+width: 100vh;
+/* background-color: black; */
+object-fit: fit;
+
+}
+.community .mainHeaderRow{
+  /* background-color: yellow; */
+  display:flexbox;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  height: 60vh;
+  width: 100%;
+  border-radius: 0;
+  overflow: hidden;
+  
+
+}
+.mainHeaderImg{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+.ExploreInfo{
+  /* background-color: rgb(255, 0, 0); */
+  padding: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.mainText{
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+.subText{
+  color: white;
+  text-align: center;
+  font-size: medium;
+  /* background-color: rgba(0, 0, 255, 0); */
+  padding: 10px;
+}
+.mainButton{
+  height: fit-content;
+  width: 30vw;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border-radius: 20px;
+  border-color: #df02df;
+  border-width: 5px;
+  font-weight: bold;
+}
+
+
+
+.exploreItem{
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+.carouselCaption{
+  position:absolute;
+  background-color: #00000094;
+}
+ .sliderImg{
+ 
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  }
+
+
+.CarouselItem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
+  
+
+}
+
+.Carousel{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: yellow; */
+  height: 50vh;
+  width: 80vw;
+  overflow: hidden;
+
+}
+
+
+.community .collection>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  border-radius: 2rem;
+}
+
+.community .collections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  height: 300px;
+  padding-bottom: 10px;
+  /* background-color: rgb(248, 8, 48); */
+
+}
+
+.community .mainCollections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  height: fit-content;
+  padding-bottom: 10px;
+  /* background-color: pink; */
+  /* background-color: rgb(104, 248, 8); */
+
+}
+
+
+.community .collections .collection>img {
+  -webkit-box-shadow: 6px 6px 10px #d1d0d0;
+  box-shadow: 6px 6px 10px #d1d0d0;
+}
+
+.community .collections .collection>img:hover {
+  -webkit-box-shadow: 6px 6px 10px #acacac;
+  box-shadow: 6px 6px 10px #acacac;
+  transform: scale(1.01);
+}
+
+.community .collections img {
+  width: 100%;
+  max-height: 20rem;
+  border-radius: 2rem;
+}
+
+
+.community .collections .title {
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+  height: 100px;
+  color: #f5f5ff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.community .flex-box>div {
+  /* padding-top: 2rem; */
+}
+.featuredText{
+  color:rgb(255, 0, 255);
+  font-weight:100;
+  font-size: x-large;
+}
+
+.primaryText{
+  color: #f5f5f5;
+  font-weight: 1000;
+
+}
+.secondaryText{
+  color: #f5f5f5;
+}
+
+.community .top-seller {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 3px #d1d0d0;
+  box-shadow: 0 0 3px #d1d0d0;
+}
+
+.community .top-seller:hover {
+  -webkit-box-shadow: 0 0 5px #d1d0d0;
+  box-shadow: 0 0 5px #d1d0d1;
+}
+
+.community .top-seller-card {
+
+  width: 125%;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.community .top-seller-card .top-seeler-img {
+
+  border-radius: 3rem;
+  -webkit-box-shadow: 0 0 3px #d1d0d0;
+  box-shadow: 0 0 5px #d1d0d0;
+}
+.community .top-seller-card .top-seeler-img:hover{
+
+  border-radius: 3rem;
+  -webkit-box-shadow: 0 0 3px #d1d0d0;
+  box-shadow: 0 0 10px #df02df;
+}
+
+
+.community .sl-no {
+
+  padding-top: 1rem;
+  color: #f5f5f5;
+  font-size: 1rem;
+}
+
+.community .top-seller-card img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.community .top-seller-card .heading {
+ 
+  color: #f5f5f5;
+  font-size: 1.3rem;
+  font-weight:bolder;
+  margin-bottom: 0;
+}
+
+
+.overlayImage{
+  background-color: 'rgba(0, 0, 0, 0.5)';
+
+}
+
+.community .top-seller-card .desc {
+  color: #00ff00;
+  font-size: .8rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.community .trending-bids-title {
+  color: #f5f5f5;
+  padding-top: 6rem;
+  font-size:xx-large;
+  font-weight: bolder;
+}
+
+.community .trending-bids .trending-bids-div {
+  /*Horizontal Scroll carousel for special collections*/
+  padding: .4rem;
+  background-color: rgba(194, 11, 11, 0);
+  width: fit-content;
+}
+
+.community .trending-bids .card {
+  border: 1px solid #E5E5E5;
+  padding: 1rem;
+  border-radius: .8rem;
+  -webkit-box-shadow: 0 0 3px #d1d0d0;
+  box-shadow: 0 0 3px #d1d0d0;
+}
+
+.community .trending-bids .card:hover {
+  -webkit-box-shadow: 0 0 10px #d1d0d0;
+  box-shadow: 0 0 10px #d1d0d0;
+  transform: scale(1.01);
+}
+
+
+.footer{
+  background-color: rgba(34, 33, 33, 0.215);
+}
+
+.LaunchpadItem .visitLaunchPadBtn{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: bold;
+ font-size: large;
+ border-color:  rgb(17, 251, 212);
+ border-radius: 1rem;
+ border-width: .2rem;
+}
+.LaunchpadItem .visitLaunchPadBtn:hover{
+  
+  background:  linear-gradient(to right, #fd38a4 0% ,  #1bd0f0);
+ font-size: xx-large;
+ border-color:  rgb(17, 251, 212);
+ border-radius: 1rem;
+ border-width: .2rem;
+}
+
+.LaunchpadItem {
+  background-color: rgb(19, 19, 19);
+  border-radius: 25px;
+  color: white;
+  width: 100vw;
+  height:70vh;
+ 
+}
+.community .trending-bids .header {
+  padding-bottom: 1rem;
+  color: white;
+  width: 100%;
+}
+
+.community .trending-bids .header img {
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5rem;
+}
+
+.community .trending-bids .treding-bids-profile {
+  height: 20rem;
+  border-radius: .8rem;
+  margin: .5rem;
+}
+
+.community .trending-bids p {
+  margin: 0rem .5rem .2rem 0.5rem;
+}
+.mainCardText{
+  padding-bottom: 1rem;
+  color: #f5f5f5;
+}
+
+.community .trending-bids .title {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: bold;
+
+}
+
+.community .trending-bids .sub-title-1 {
+  font-size: .8rem;
+  color: #9C9C9D;
+  font-weight: bold;
+}
+
+.community .trending-bids b {
+  color: #000000;
+}
+
+.community .trending-bids .sub-title-2 {
+  font-size: .7rem;
+  color: #9C9C9D;
+  font-weight: bold;
+}
+
+.community .trending-bids .sub-title-2 .highlight {
+  color: blue;
+}
+
+.community .hot-collection-title {
+  color: #f5f5f5;
+  padding-top: 6rem;
+  font-size:xx-large;
+  font-weight: bolder;
+}
+
+.community .hot-collections .hot-col {
+  /* border-radius: .5rem; */
+  color: white;
+  width: 100%;
+  padding: 2rem;
+  /* border: 1px solid #E5E5E5; */
+}
+
+.community .hot-collections .hot-col>div {
+  position: relative;
+  border-radius: .5rem;
+  margin: .5rem;
+  border: 1px solid #E5E5E5;
+  -webkit-box-shadow: 0 0 3px #d1d0d0;
+  box-shadow: 0 0 3px #d1d0d0;
+}
+
+.community .hot-collections .hot-col>div:hover {
+  -webkit-box-shadow: 0 0 10px #d1d0d0;
+  box-shadow: 0 0 10px #d1d0d0;
+  transform: scale(1.01);
+}
+
+.community .hot-collections .hot-col-img {
+  height: 10rem;
+  width: 100%;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  /* border: 1px solid #E5E5E5; */
+}
+
+.community .hot-collections .hot-col-prof {
+  position: absolute;
+  top: 5.5rem;
+  left: 35%;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 5rem;
+  text-align: center;
+  border: 3px solid white;
+  /* margin: auto; */
+}
+
+
+.community .hot-collections .title {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.community .hot-collections .desc {
+  color: #ff00c8;
+  font-size: .8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.community .explore {
+  padding: 2rem .5rem 3rem .5rem;
+}
+
+.community .explore .tag {
+  display: inline-block;
+  border: 1px solid #E5E5E5;
+  padding: .3rem .5rem .3rem .5rem;
+  margin-right: .8rem;
+  margin-bottom: .5rem;
+  border-radius: 2rem;
+}
+
+
+.community .explore .tag svg {
+  margin-right: .5rem;
+}
+
+.community .explore .tag .title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.community .explore .tag.selected {
+  background: #03EFFE;
+  color: white !important;
+}
+
+.community .video .card {
+  margin-top: .2rem;
+  padding: 0.2rem 5rem 0rem 5rem;
+}
+
+.community .not-for-sale-section {
+  -webkit-box-shadow: 0 0 3px #d1d0d0;
+  box-shadow: 0 0 3px #d1d0d0;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+  padding-bottom: 20px;
+}
+
+.community .not-for-sale-section:hover {
+  -webkit-box-shadow: 0 0 5px #d1d0d0;
+  box-shadow: 0 0 5px #d1d0d0;
+}
+
+.community .not-for-sale {
+  border-radius: .5rem;
+  width: 100%;
+  max-height: 25rem;
+}
+
+.community .not-for-sale-info h5, .community .not-for-sale-info .desc {
+  padding-bottom: 6rem;
+  padding-top: 0rem;
+  color: #f5f5f5;
+  font-weight: bold;
+  display: block;
+}
+
+.community .not-for-sale-info .desc>span {
+  color: #9C9C9D;
+}
+
+.community .not-for-sale-info .bid {
+  color: #9C9C9D;
+  font-weight: bold;
+}
+
+.community .video .header {
+  padding: 1rem;
+}
+
+.community .video .treding-bids-profile {
+  height: 25rem;
+  width: 100%;
+}
+
+.community .video .video-container {
+  position: relative;
+}
+
+.community .video .video-container>div {
+  width: 100% !important;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.community .video .video-container svg {
+  position: absolute;
+  right: 3rem;
+  bottom: 2rem;
+  height: 3rem;
+  width: 3rem;
+  color: #03EFFE;
+  background: white;
+  border-radius: 5rem;
+}
+
+.community .carousel-scroll div[data-arrow='left'], .community .carousel-scroll div[data-arrow='right'] {
+  display: none;
+}
+
+
+.carouselComponent{
+  display: flex;
+  width: 100%;
+  
+}
+.community .video p {
+  margin: 0rem .5rem .2rem 0.5rem;
+}
+
+.community .video .title {
+  color: #f5f5f5;
+  padding-top: 6rem;
+  font-size:xx-large;
+  font-weight: bolder;
+}
+
+.community .video .sub-title-1 {
+  font-size: .8rem;
+  color: #9C9C9D;
+  font-weight: bold;
+  padding: 0rem .5rem 0rem .5rem;
+}
+
+.community .video b {
+  color: #000000;
+}
+
+.community .video .sub-title-2 {
+  font-size: .7rem;
+  color: #9C9C9D;
+  font-weight: bold;
+  padding: 0rem .5rem 1rem .5rem;
+}
+
+.community .video .sub-title-2 .highlight {
+  color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  .community .collections img {
+    /* height: 10rem; */
+    height: 88%;
+  }
+  .community .collections .title {
+    top: 1.5rem;
+    font-size: 1rem;
+  }
+  .community .trending-bids .treding-bids-profile {
+    height: 17rem;
+  }
+  .community .video .card {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+  /* .community .video .card p, .community .video>div {
+    padding: 0.3rem .3rem 0.3rem .3rem !important;
+  } */
+  .community .video .treding-bids-profile {
+    height: 15rem;
+    width: 96%;
+  }
+  .community .video .video-container>div {
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .community .collections img {
+    /* height: 10rem; */
+    height: 85%;
+  }
+  .community .trending-bids .treding-bids-profile {
+    height: 14rem;
+  }
+  .community .video .card {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  /* .community .video .card p, .community .video>div {
+    padding: 0.3rem 1rem 0.3rem 1rem !important;
+  } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  .community .collections img {
+    /* height: 18rem; */
+    height: 85%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+  .community .collections img {
+    /* height: 18rem; */
+    height: 85%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  .community .collections img {
+    /* height: 18rem; */
+    height: 88%;
+  }
+}
+
+.SearchBar {
+  position: absolute;
+  top: 355px;
+  left: 575px;
+  background-color: #03effe;
+}
+
+.SearchBar input {
+  height: 30px;
+  width: 0px;
+  background-color: #03effe;
+}
+
+
+/* ================= Launch Pad===================== */
+
+.MainTitle{
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  color:#df02df;
+  font-weight: normal;
+}
+
+.MainContainer{
+
+  padding-bottom: 20vh;
+  align-items: left;
+  justify-content: left;
+}
+
+
+.LaunchPadCard .LaunchBack{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(4, 255, 0); */
+  border-radius: 20px;
+  width: 450px;
+  height: 60vh;
+  object-fit: contain;
+
+
+}
+
+.LaunchPadCard .LaunchBack .LaunchImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110%; 
+  object-fit: fill; 
+
+
+}
+
+
+
+.CardContent{
+  
+  /*Main card content*/
+  /*background-color: rgb(0, 255, 200);*/
+  border-color: white;
+  border-width: 20px;
+  padding: 25px;
+  width: 20vw;
+  margin: 0px 10px 0px 10px;
+  font-size: large;
+}
+
+.CardContent .title{
+  font-size: xxx-large;
+  font-weight: bolder;
+  color: white;
+  
+margin-top: 20px;
+}
+
+.CardContent .LaunchpadBadges{
+
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.CardContent .LaunchpadContent{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color:white;
+}
+
+.CardContent .LaunchpadButton{
+  /*Visit Launchpad button*/
+  width: 450px;
+  height: 50px;
+  background-color:rgba(92, 87, 87, 0.136);
+  font-size: larger;
+  border-radius: 20px;
+  border: .5px solid #ff00b3;
+  -webkit-box-shadow: 6px 6px 10px #d1d0d0;
+  box-shadow: 2px 2px 5px #d1d0d0;
+}
+
+
+.CardContent .LaunchpadBadges .TokenDetails{
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #df02df;
+  padding: 5px;
+
+}
+
+
+/*Phone screen */
+@media only screen and (min-width: 10px) and (max-width: 600px) {  
+
+  /*small screen sizes*/
+  .CardContent .LaunchpadButton{
+    /*Visit Launchpad button*/
+    width: 200px;
+    height: 50px;
+    background-color:rgba(99, 27, 27, 0.122);
+    font-size: larger;
+    border-radius: 20px;
+    border: .5px solid #ff00b3;
+    -webkit-box-shadow: 6px 6px 10px #d1d0d0;
+    box-shadow: 2px 2px 5px #d1d0d0;
+  }
+
+  .LaunchPadCard { 
+    /*Launch pad card*/
+    display: flex;
+    flex-direction: column;
+    /*background-color: rgba(0, 255, 195, 0.904);*/
+    border-radius:20px ;
+    border: .5px solid #ff2cff;
+    padding: 50px;
+   
+  }
+  .CardContent .title{
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: white;
+    
+  margin-top: 20px;
+  }
+  .CardContent .LaunchpadContent{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 50vw;
+    color:white;
+  }
+
+  .CardContent .LaunchpadBadges{
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+
+  .LaunchPadCard .LaunchBack{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 0, 247);
+    width: 65vw;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+  
+  
+  }
+  .LaunchPadCard .LaunchBack .LaunchImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110%; 
+    object-fit: fill; 
+    
+  
+  
+  }
+  .CardContent .LaunchpadBadges .TokenDetails{
+    font-size: larger;
+    font-weight: bolder;
+    color: #df02df;
+
+    
+  }
+
+ 
+}
+
+
+/*Ipad size */
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .LaunchPadCard { 
+     /*Launch pad card*/
+     display: flex;
+     flex-direction: column;
+     /*background-color: rgba(0, 255, 195, 0.904);*/
+     border-radius:20px ;
+     border: .5px solid #ff2cff;
+     padding: 50px;
+   
+  }
+
+
+  .LaunchPadCard .LaunchBack{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 0, 247);
+    width: 35vw;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
+
+  .LaunchPadCard .LaunchBack .LaunchImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110%; 
+    object-fit: fill; 
+    
+  
+  
+  }  
+
+
+  .CardContent{
+  
+    /*Main card content*/
+    /*background-color: rgb(0, 255, 200);*/
+
+    border-color: white;
+    border-width: 20px;
+    padding: 25px;
+    width: 60vw;
+    /* background-color: red; */
+    margin: 0px 10px 0px 10px;
+    font-size: large;
+  }
+
+  .CardContent .LaunchpadButton{
+    /*Visit Launchpad button*/
+    width: 200px;
+    height: 50px;
+    background-color:rgba(92, 87, 87, 0.136);
+    font-size: larger;
+    border-radius: 20px;
+    border: .5px solid #ff00b3;
+    -webkit-box-shadow: 6px 6px 10px #d1d0d0;
+    box-shadow: 2px 2px 5px #d1d0d0;
+  }
+
+
+}
+
+/*Desktop size */
+@media only screen and (min-width: 1200px) {
+  .LaunchPadCard { 
+    /*Launch pad card*/
+    display: flex;
+    flex-direction: row;
+   
+    /*background-color: rgba(0, 255, 195, 0.904);*/
+    border-radius:20px ;
+    border: .5px solid #ff2cff;
+    padding: 50px;
+   
+  }
+
+  .LaunchPadCard .LaunchBack{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 0, 247);
+    width: 35vw;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+}
+

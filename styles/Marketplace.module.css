@@ -1,0 +1,370 @@
+
+
+.mainSection{
+    /* background-color: red; */
+    max-height: 50vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+    overflow: hidden;
+
+}
+.mainImage{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+.activityTab{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    
+}
+
+
+
+
+
+
+.topHoldersSection{
+    /* background-color: yellow; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.topHolders{
+    /* background-color: red; */
+    width: 80vw;
+    border-radius: 5px;
+}
+
+.collectionFeedSection{
+    background-color: rgba(64, 61, 61, 0.681);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    width: 80vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+ /* Framer motion wrapper */
+.FramerIntroContents{
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.MediaButtonGroup{
+    /* background-color: yellow; */
+
+    border: 1px double #ce32b7;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    width: fit-content;
+    
+    
+}
+.MediaButton{
+    width: 7vw;
+    /* background-color: blue; */
+    margin: 5px;
+    padding: 1px;
+}
+
+.horizontalScrollSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    min-width: 90vw;
+    /* background-color: yellow; */
+    width: fit-content;
+}
+.container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+.mainText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    opacity:1;
+}
+.filterOptionsSection{
+
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+    border: 1px double #f300cb;
+    /* background-color: blue;  */
+}
+
+.filterSection{
+    margin-top: 10px;
+      /* background-color: yellow;   */
+      border: 1px double #f300cb;
+      display: flex;
+      align-items: right;
+      justify-content: right;
+}
+
+.optionButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+    width: 20vw;
+   
+    border: 1px double #f300cb;
+
+    
+}
+
+.itemSection{
+ 
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    width: 100%;
+    flex-wrap: wrap;  
+     /* background-color: brown;   */
+   
+    max-width: 100%; /* whatever you desire */
+  
+  }
+.searhIcon{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    /* background-color: rgb(13, 255, 0); */
+    width: 10vw;
+}
+.searchBar{
+    margin-bottom: 1rem;
+    /* background-color: palegoldenrod; */
+    border: 1px double #f300cb;
+    border-radius: 5px;
+    /* background-color: red; */
+    width: 80vw;
+}
+.countDropdown{
+    /* background-color: pink; */
+
+    width: 60vw;
+
+}
+
+.filterDropDown{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    /* background-color: green; */
+    width: 60vw;
+   
+
+}
+
+.searchSection{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow;  */
+    padding-top: 25px;
+
+}
+.overlay{
+    display: flex;
+    background-color: black;
+    opacity: .3;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+}
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 99vw;
+    background-color: royalblue;
+    
+  }
+  
+.contractInfoSection{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 75vw;
+    height: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.ContractAvatarSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    /* background-color: red; */
+    transform: translateY(-100px);
+    width: 100vw;
+}
+.ContractAvatar{
+    background-color: brown;
+    object-position: right top;
+}
+
+
+
+.bio{
+    margin: 0rem 0;
+    line-height: 1;
+    font-size: 1rem;
+    color: dimgray;
+    /* background-color: purple; */
+    text-align: center;
+    /* background-color: red; */
+    padding-bottom: 5rem;
+
+}
+.MediaButtonsSection{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 90vw;
+    height: 5vh;
+    /* background-color: yellow; */
+}
+
+
+.bioSection{
+
+    background-color: blanchedalmond;
+    width: 70vw;
+}
+.description {
+    margin: 1rem 0;
+    line-height: 1;
+    font-size: 1rem;
+    /* background-color: purple; */
+  }
+
+.a {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: rgb(77, 148, 246);
+  }
+
+
+
+.ContractInfoGroup{
+
+/* background-color: rgb(0, 81, 255); */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+height: fit-content;
+width: 60vw;
+}
+
+.contractTitle{
+     /* background-color: pink;  */
+    width: 70vw;
+    line-height: 5vh;
+    height: fit-content;
+}
+.InfoButton{
+    background-color: red;
+}
+.contractCount{
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px double #ce32b7;
+     /* background-color: rgb(0, 0, 0);  */
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 10vh;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+
+
+.tabSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    width: 100vw;
+    /* background-color: pink;   */
+  }
+.title a {
+    color: #f300cb;
+    text-decoration: none;
+  }
+  
+  .title a:hover,
+  .title a:focus,
+  .title a:active {
+    text-decoration: underline;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 1rem;
+  }
+  
+  .contractTitle,
+  .description, .title {
+
+    text-align: center;
+  }
+
+
+@media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,279 @@
+.mainProfileContainer{
+
+    /* background-color: red; */
+   
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.UserInfoSection{
+    padding-top: 3rem;
+    /* background-color: red; */
+    width: 99vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.profileBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(27, 255, 15); */
+    padding: 7px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.profileImage{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+.profileImageSection{
+    border: 6px double #ce32b7;
+     /* background-color: yellow;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 17vh;
+    width: 17vh;
+    border-radius: 100%;
+    margin-right: 1rem; 
+}
+.UserRatioSection{
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    /* background-color: blue;  */
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.followers{
+    font-weight: 500;
+    /* background-color: green; */
+    line-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+}
+
+.followButtonSection{
+    background-color: rgb(255, 15, 247);
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49vw;
+    border-radius: 30px;
+    color: white;
+}
+.NameArea{
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    /* background-color: rgb(44, 93, 13); */
+    font-size: 3vh;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.userBioInfo{
+    display: flex;
+    justify-content: center;
+     background-color: rgb(170, 255, 80); 
+    height: fit-content;
+    width: 99vw;
+}
+.userNameArea{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue;  */
+    justify-content: eft;
+    align-items:center;
+    width: 90vw;
+    height: 4vh;
+    
+}
+.userName{
+    font-weight: 100;
+    height: fit-content;
+    /* background-color: red; */
+    font-size: 2vh;
+    margin-left: 5px;
+}
+.userNamesSection{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blanchedalmond;  */
+}
+.accountId{
+/* background-color: red; */
+display: flex;
+align-items: center;
+height: 1vh;
+font-size: 15px;
+font-weight: 100;
+margin-right: 100px;
+}
+
+.fingerPrint{
+
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+
+}
+.Name{
+    /* background-color: red; */
+    font-weight: 600;
+    /* background-color: red; */
+    width: fit-content;
+}
+
+.joinDate{
+    display: flex;
+    align-items: center;
+    background-color: rgb(234, 231, 231);
+    padding: 3px;
+    font-weight:500;
+    color: rgba(63, 63, 64, 0.782);
+    border-radius: 5px;
+    font-size: 1.4vh;
+    margin-left: 5px;
+    height: 2vh;
+
+}
+
+.bioSection{
+    display: flex;
+    flex-direction: column;
+     /* align-items: left; */
+    /* background-color: royalblue;  */
+    font-size: 13px;
+}
+
+.accountIdSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2ch;
+    /* background-color: yellow;  */
+}
+.bio{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.UserRatio{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainUserSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    width: 100vw;
+    /* height: fit-content; */
+
+}
+.OwnedTabRow{
+
+
+
+
+
+
+
+
+
+
+    /* background-color: red; */
+    width: 100vw;
+}
+.OwnedTab{
+
+
+
+    height: fit-content;
+    /* background-color: yellow; */
+}
+
+.tab{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    height: fit-content;
+
+}
+.tabSection{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 100vw;
+    /* background-color: pink;    */
+    height: fit-content;
+
+  }
+
+.userPageOptionButtonSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    background-color: royalblue;
+    
+}
+
+.userPageOptionButton{
+    border: 1px double #ce32b7;
+margin: 5px;
+    height: 5vh;
+    /* background-color: yellow; */
+    justify-content: center;
+    padding: 2px;
+    align-items: center;
+}
+
+.userOwnedSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: fit-content;
+    width: 100vw;
+}
+
+.userOwnedNFTsSection{
+    /* background-color: red; */
+}
